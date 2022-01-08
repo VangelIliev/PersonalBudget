@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAndFamilyBudgetApp", "PersonalAndFamilyBudgetApp\PersonalAndFamilyBudgetApp.csproj", "{CB5F358E-55EC-4169-8501-B23AEEE97D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAndFamilyBudgetApp", "PersonalAndFamilyBudgetApp\PersonalAndFamilyBudgetApp.csproj", "{CB5F358E-55EC-4169-8501-B23AEEE97D7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{9EDFEC98-F73B-4995-8363-3D94B97588A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D5997B8F-1050-4FA9-A552-A9B4A3195C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalBudgetDb", "PersonalBudgetDb\PersonalBudgetDb.csproj", "{5A554566-9DBE-41C7-909E-520372B90956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalBudgetServices", "PersonalBudgetServices\PersonalBudgetServices.csproj", "{8CCF91D5-FC4F-4261-834A-9B865A05EBA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,21 @@ Global
 		{CB5F358E-55EC-4169-8501-B23AEEE97D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB5F358E-55EC-4169-8501-B23AEEE97D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB5F358E-55EC-4169-8501-B23AEEE97D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A554566-9DBE-41C7-909E-520372B90956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A554566-9DBE-41C7-909E-520372B90956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A554566-9DBE-41C7-909E-520372B90956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A554566-9DBE-41C7-909E-520372B90956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCF91D5-FC4F-4261-834A-9B865A05EBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCF91D5-FC4F-4261-834A-9B865A05EBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCF91D5-FC4F-4261-834A-9B865A05EBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCF91D5-FC4F-4261-834A-9B865A05EBA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A554566-9DBE-41C7-909E-520372B90956} = {9EDFEC98-F73B-4995-8363-3D94B97588A1}
+		{8CCF91D5-FC4F-4261-834A-9B865A05EBA3} = {D5997B8F-1050-4FA9-A552-A9B4A3195C2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A70E2F0-FD1F-4413-A697-0B59D18E00FB}
