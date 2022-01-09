@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalBudgetDb\PersonalBudgetDb.csproj" />
+    <ProjectReference Include="..\PersonalBudgetServices\PersonalBudgetServices.csproj" />
+  </ItemGroup>
+
 </Project>

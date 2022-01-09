@@ -2,9 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PersonalBudgetDb.Entities
 {
@@ -18,7 +15,7 @@ namespace PersonalBudgetDb.Entities
         [Required]
         public Guid Id { get; set; }
 
-        public decimal TotalAmount { get; set; }
+        public double TotalAmount { get; set; }
 
         public int Year { get; set; }
 

@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PersonalBudgetDb.Entities
 {
@@ -22,7 +18,7 @@ namespace PersonalBudgetDb.Entities
 
         public virtual ExpenseCategory ExpenseCategory { get; set; }
 
-        public decimal Amount { get; set; }
+        public double Amount { get; set; }
 
         [Required]
         public string IdentityUserId { get; set; }
