@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace PersonalBudgetServices.ServiceModels
 {
-    internal interface IBaseEntity
+    internal class YearlyExpenseServiceModel
     {
         public Guid Id { get; set; }
+
+        public double TotalAmount { get; set; }
+
+        public int Year { get; set; }
     }
 }
